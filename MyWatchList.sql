@@ -242,7 +242,7 @@ ON Monthly_Subscription(SubscriptionID);
 CREATE UNIQUE INDEX AnnualSubIdx
 ON Annual_Subscription(SubscriptionID);
 
--- CREATE Non-Unique Index
+-- CREATE Non-Unique Index-
 
 CREATE INDEX Account_ContentIdx
 ON Account_Content(AccountID);
